@@ -69,6 +69,7 @@ public partial class WrapperGeneratorMain
             classBuilder.Append(
                 $"""
                  #pragma warning disable CS0109
+                 #nullable disable //https://github.com/Delsin-Yu/CSharp-Wrapper-Generator-for-GDExtension/pull/58
                  using System;
                  using System.Diagnostics;
                  using System.Linq;
